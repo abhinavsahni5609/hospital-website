@@ -1,0 +1,119 @@
+/* Reset some default styles for consistency */
+html, body, div, h1, h2, h3, p, img, ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background and text styles for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+    font-size: 36px;
+}
+
+/* Navigation styles */
+.nav {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ff5733; /* Change to your preferred hover color */
+}
+
+/* Content wrapper styles */
+#content {
+    padding: 20px;
+}
+
+/* Sidebar styles */
+aside {
+    float: left;
+    width: 25%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+.content {
+    float: left;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form and input styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+select, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #ff5733; /* Change to your preferred button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ff6f4e; /* Change to your preferred hover color */
+}
+
+/* Add additional styles and animations as needed */
